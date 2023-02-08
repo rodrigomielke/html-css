@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       body {
+        background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       header{
+        background-color: rgb(143, 155, 151);
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid black;
+       }
+       nav{
+        background-color: lightgray;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.308);
+       }
+       nav > a {
+        margin-left: 30px;
+        
+       }
+       nav > a:hover {
+        color: red;
+               }
+        
+       main{
+        background-color: rgb(143, 155, 151) ;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+       }
+       #assuntos > p {
+        font-size: 0.8em;
+       }
+       aside > p {
+        font-size: 0.9em;
+       }
+       footer{
+        background-color: black;
+        color:white;
+        text-align: center;
+        padding: 4px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Forma de Site teste 01</h1>
+        <nav>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+            <a href="@">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="@">Esportes e tecnologia</a></p>
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, facilis illum? Animi quam consequatur, modi veniam ipsam perspiciatis! Magni sapiente nostrum obcaecati voluptatibus? Facere placeat quasi rerum eum aperiam. Id.</p>
+                <aside>
+                    <p>Artigo escrito por ...</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por eu mesmo.
+    </footer>
+</body>
+</html>

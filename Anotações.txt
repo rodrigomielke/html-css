@@ -1,0 +1,29 @@
+- "code" serve pra deixar os caracteres igualmente espaçados.
+- "pre" serve pra deixar igualmente formatado como no VisualStudio
+- "q" é pra colocar citações simples com aspas
+- "blockquote" cite= Site citado" serve pra citações completas com quebras de linhas
+- "abbr" serve pra colocar significado das abreviações
+- "bdo"  Right to left (RTL ou LTR) ou Left to Right. é pra dar direção ao texto
+- "ol" (<ol type="1" start="2">) serve pra criar listas, cada item da lista deve conter "li" (type= 1 pra numeros, A pra alfabeto (maiusculo ou minusculo) e i para romanos (maiusculo ou minusculo)
+- "ul" cria uma lista nao ordenada type= disc, circle, square.
+- "dl" é uma lista de definição "dt" é o termo e "dd" é a descrição
+- "a" serve pra anexar um link completo ao texto (pra abrir em outra guia adicionar target="_blank" e rel="external" (rel= nofollow, external, next, prev, 
+Em href= ../ quer dizer pra voltar uma pasta
+
+--
+color.adobe.com
+paletton.com
+coolors.co
+whatfontis.com
+mockflow.com
+
+font: style weight size family;
+
+div:hover "funciona pra mudar a animação quando passar o mouse"
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = Children
+
