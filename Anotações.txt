@@ -16,6 +16,7 @@ paletton.com
 coolors.co
 whatfontis.com
 mockflow.com
+qr-code-generator.com
 
 font: style weight size family;
 
