@@ -28,3 +28,6 @@ div:hover "funciona pra mudar a animação quando passar o mouse"
 :: = pseudo-element
 > = Children
 
+background-image¨:url() serve pra colocar imagens
+background-size: tamanho da imagem
+background-repeat: repetições da imagem
