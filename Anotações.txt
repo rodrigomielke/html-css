@@ -28,6 +28,10 @@ div:hover "funciona pra mudar a animação quando passar o mouse"
 :: = pseudo-element
 > = Children
 
+background-image: linear-gradient (to direction, color1, color2)
 background-image¨:url() serve pra colocar imagens
 background-size: tamanho da imagem
 background-repeat: repetições da imagem
+shorthand background: color image position repeat *size* attachment
+conteudo centralizado vertical e horizontal top:50%; left:50%; transform: translate(-50%,-50%);
+
