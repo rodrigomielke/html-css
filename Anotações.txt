@@ -33,10 +33,11 @@ background-image¨:url() serve pra colocar imagens
 background-size: tamanho da imagem
 background-repeat: repetições da imagem
 shorthand background: color image position repeat *size* attachment
-conteudo centralizado vertical e horizontal top:50%; left:50%; transform: translate(-50%,-50%);
+conteudo centralizado vertical e horizontal conteudo de fora position: relative e o de dentro position absolute. e de dentro: top:50%; left:50%; transform: translate(-50%,-50%);
 tabelas (Caption, THEAD, TBODY, TFOOT) (TR= linha; TH= escritos [scope=col na mesma coluna; scope=row na mesma linha]; TD= dados da tabela; // border collapse:collapse (junta as bordas).
 tbody>tr:nth-child(2n) *EFEITO ZEBRADO*
 Cabeçalho móvel table position: relative; == *thead>tr>th{ position: sticky; top: -1px; background-color: gray;*
 Mesclagem colspan:2; pra duas colunas e rowspan:2; pra duas linhas
 grupo de colunas logo abaixo de table <colgroup><col class="cnome"><col class="csexo"><col class="cidade"><col class="cprof"></colgroup>
+OVERFLOW-X na div pra rolagem lateral.
 
