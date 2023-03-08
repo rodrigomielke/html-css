@@ -44,3 +44,4 @@ OVERFLOW-X na div pra rolagem lateral.
 IFRAME
 padrao 300px 150px
 srcdoc= pra escrever html dentro do iframe
+deixar o iframe mais seguro sandbox="sandbox" referrerpolicy="no-referrer" 
