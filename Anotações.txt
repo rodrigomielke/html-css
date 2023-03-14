@@ -33,7 +33,8 @@ background-image¨:url() serve pra colocar imagens
 background-size: tamanho da imagem
 background-repeat: repetições da imagem
 shorthand background: color image position repeat *size* attachment
-conteudo centralizado vertical e horizontal conteudo de fora position: relative e o de dentro position absolute. e de dentro: top:50%; left:50%; transform: translate(-50%,-50%);
+conteudo centralizado vertical e horizontal conteudo de fora position: relative e o de dentro position absolute com top:50%; left:50%; transform: translate(-50%,-50%);
+
 tabelas
  (Caption, THEAD, TBODY, TFOOT) (TR= linha; TH= escritos [scope=col na mesma coluna; scope=row na mesma linha]; TD= dados da tabela; // border collapse:collapse (junta as bordas).
 tbody>tr:nth-child(2n) *EFEITO ZEBRADO*
@@ -41,7 +42,20 @@ Cabeçalho móvel table position: relative; == *thead>tr>th{ position: sticky; t
 Mesclagem colspan:2; pra duas colunas e rowspan:2; pra duas linhas
 grupo de colunas logo abaixo de table <colgroup><col class="cnome"><col class="csexo"><col class="cidade"><col class="cprof"></colgroup>
 OVERFLOW-X na div pra rolagem lateral.
+
 IFRAME
 padrao 300px 150px
 srcdoc= pra escrever html dentro do iframe
 deixar o iframe mais seguro sandbox="sandbox" referrerpolicy="no-referrer" 
+
+Formulario
+<form action"{PRA ONDE VAI O FORMULÁRIO}" autocomplete"on ou off"  >
+	<p> 
+	<label for="iname"> Nome: </label>
+	<input type="text" name="nome" id="inome" required minlenght="5" maxlenght="15" size="12" placeholder="Nome de Usuário">
+	</p>
+	<p> 
+	<input type="submit" value="Enviar">
+	<input type="reset" value"Limpar">
+	<p>
+</form>
