@@ -50,6 +50,9 @@ deixar o iframe mais seguro sandbox="sandbox" referrerpolicy="no-referrer"
 
 Formulario
 <form action"{PRA ONDE VAI O FORMULÁRIO}" autocomplete"on ou off"  >
+	<fieldset>
+	<legend> Dados Pessoais
+	</legend>
 	<p> 
 	<label for="iname"> Nome: </label>
 	<input type="text" name="nome" id="inome" required minlenght="5" maxlenght="15" size="12" placeholder="Nome de Usuário">
@@ -57,5 +60,6 @@ Formulario
 	<p> 
 	<input type="submit" value="Enviar">
 	<input type="reset" value"Limpar">
-	<p>
+	<p> 
+	</fieldset>
 </form>
