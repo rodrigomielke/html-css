@@ -50,8 +50,8 @@ deixar o iframe mais seguro sandbox="sandbox" referrerpolicy="no-referrer"
 
 Formulario
 <form action"{PRA ONDE VAI O FORMULÁRIO}" autocomplete"on ou off"  >
-	<fieldset>
-	<legend> Dados Pessoais
+	<fieldset>{PARA DEIXAR EM CAIXA}
+	<legend> Dados Pessoais {LEGENDA DA CAIXA}
 	</legend>
 	<p> 
 	<label for="iname"> Nome: </label>
@@ -63,3 +63,12 @@ Formulario
 	<p> 
 	</fieldset>
 </form>
+input:checkbox CAIXA DE MARCAÇAO -- CHECKED PARA MARCADO 
+input:radio BOLINHA DE MARCAÇÃO UNICA -- USAR COM O MESMO NOME TODOS PARA MARCAR APENAS 1 -- CHECKED PARA MARCAR
+input:color caixa de cor value pra setar o valor
+input:range caixa para arrastar usar mine max para valor e value pra setar valor
+input:file importante pra usar imagem usar method:post
+<select> Serve pra caixa de seleção, cada opção com a tag option, cada grupo de opçoes usar optgroup com label= a legenda que quiser usar 	selected na opção para setar o padrão
+<datalist> colocar opções com option dentro do data list e dar uma id pra ele, dento do input:text colocar a id do datalist com a tag list
+textarea serve pra colocar uma caixa de texto, essa caixa é infinita, os valores de row e col são linhas e colunas que aparecerão na tela, usar tambem com method post
+output serve para mostrar valores -- necessário javascript
