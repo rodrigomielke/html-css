@@ -9,6 +9,7 @@
 - "dl" é uma lista de definição "dt" é o termo e "dd" é a descrição
 - "a" serve pra anexar um link completo ao texto (pra abrir em outra guia adicionar target="_blank" e rel="external" (rel= nofollow, external, next, prev, 
 Em href= ../ quer dizer pra voltar uma pasta
+text-indent é o espaçamento do parágrafo.
 
 --
 color.adobe.com
@@ -72,3 +73,6 @@ input:file importante pra usar imagem usar method:post
 <datalist> colocar opções com option dentro do data list e dar uma id pra ele, dento do input:text colocar a id do datalist com a tag list
 textarea serve pra colocar uma caixa de texto, essa caixa é infinita, os valores de row e col são linhas e colunas que aparecerão na tela, usar tambem com method post
 output serve para mostrar valores -- necessário javascript
+
+Media Query
+No link pra css adicionar media=screen pra tela e media=print pra impressão
