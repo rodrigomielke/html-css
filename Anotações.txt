@@ -18,6 +18,7 @@ coolors.co
 whatfontis.com
 mockflow.com
 qr-code-generator.com
+https://fonts.google.com/icons
 
 font: style weight size family;
 
@@ -75,4 +76,4 @@ textarea serve pra colocar uma caixa de texto, essa caixa é infinita, os valore
 output serve para mostrar valores -- necessário javascript
 
 Media Query
-No link pra css adicionar media=screen pra tela e media=print pra impressão
+No link pra css adicionar media=screen pra tela --screen and (max ou min wisth) and (max ou min width) e media=print pra impressão
